@@ -1,0 +1,37 @@
+{
+  "name": "personalized-social-platform-demo",
+  "version": "1.0.0",
+  "description": "A demo of a personalized social platform showcasing real-time personalization using Weaviate for vector storage and FirstBatch for personalized feeds.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/personalized-social-platform-demo.git"
+  },
+  "keywords": [
+    "Weaviate",
+    "FirstBatch",
+    "personalization",
+    "social platform",
+    "demo"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/personalized-social-platform-demo/issues"
+  },
+  "homepage": "https://github.com/yourusername/personalized-social-platform-demo#readme",
+  "dependencies": {
+    "weaviate-client": "^1.0.0",
+    "firstbatch-sdk": "^1.0.0",
+    "react": "^17.0.2",
+    "next": "^10.2.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
